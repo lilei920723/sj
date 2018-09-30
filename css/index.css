@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
 }
-  
+
 #cubeTransition {
   position: relative;
   width: 100%;
@@ -17,7 +17,7 @@
   -moz-perspective: 1200px;
   perspective: 1200px;
 }
-  
+
 #cubeTransition div {
   min-height: 100%;
   width: 100%;
@@ -31,7 +31,7 @@
   color: #fff;
   display: none;
 }
-  
+
 #cubeTransition h2 {
   position: relative;
   top: 200px;
@@ -40,31 +40,31 @@
   text-align: center;
   text-shadow: 1px 1px 0px rgba( 0, 0, 0, 0.1 );
 }
-  
+
 .top { z-index: 9999 }
-  
+
 .rotateCubeTopOut {
   transform-origin: 50% 100%;
   animation: rotateCubeTopOut .6s both ease-in;
 }
-  
+
 .rotateCubeTopIn {
   transform-origin: 50% 0%;
   animation: rotateCubeTopIn .6s both ease-in;
 }
-  
+
 .rotateCubeBottomOut {
   transform-origin: 50% 0%;
   animation: rotateCubeBottomOut .6s both ease-in;
 }
-  
+
 .rotateCubeBottomIn {
   transform-origin: 50% 100%;
   animation: rotateCubeBottomIn .6s both ease-in;
 }
-  
-@keyframes 
-rotateCubeTopOut {  
+
+@keyframes
+rotateCubeTopOut {
   50% {
     animation-timing-function: ease-out;
     transform: translateY(-50%) translateZ(-200px) rotateX(45deg);
@@ -74,8 +74,8 @@ rotateCubeTopOut {
     transform: translateY(-100%) rotateX(90deg);
   }
 }
-  
-@keyframes 
+
+@keyframes
 rotateCubeTopIn {
   0% {
     opacity: .3;
@@ -86,9 +86,9 @@ rotateCubeTopIn {
     transform: translateY(50%) translateZ(-200px) rotateX(-45deg);
   }
 }
-  
-@keyframes 
-rotateCubeBottomOut {  
+
+@keyframes
+rotateCubeBottomOut {
   50% {
     animation-timing-function: ease-out;
     transform: translateY(50%) translateZ(-200px) rotateX(-45deg);
@@ -98,9 +98,9 @@ rotateCubeBottomOut {
     transform: translateY(100%) rotateX(-90deg);
   }
 }
-  
-@keyframes 
-rotateCubeBottomIn {  
+
+@keyframes
+rotateCubeBottomIn {
   0% {
     opacity: .3;
     transform: translateY(-100%) rotateX(90deg);
@@ -254,7 +254,7 @@ rotateCubeBottomIn {
 	margin-bottom: .2rem;
 }
 .pc_news_tab a.active_pc_news_tab {
-	background: #bb3e3e !important; 
+	background: #bb3e3e !important;
 }
 .news_list_con{
 	box-sizing: border-box;
@@ -397,7 +397,7 @@ rotateCubeBottomIn {
 	width: 35.5%;
 }
 .case_li{
-	width: 12.2%;
+	width: 14.2%;
 }
 .tech_li{
 	width: 31.2%;
@@ -527,6 +527,7 @@ rotateCubeBottomIn {
 	width: 100%;
 	text-align: center;
 	margin-bottom: 1.5rem;
+	font-size: 1.5rem;
 }
 .about_case_box >img{
 	width: 100%;
@@ -748,7 +749,7 @@ rotateCubeBottomIn {
 	font-size: 1.8rem;
 	color: #222;
 	margin-bottom: 1.5rem;
-	margin-top: 1rem; 
+	margin-top: 1rem;
 
 }
 .step_top{
@@ -1457,7 +1458,7 @@ rotateCubeBottomIn {
 		line-height: 1rem;
 		padding-bottom: .25rem;
 		width: 130px;
-		height:21px; 
+		height:21px;
 		overflow: hidden;
 		white-space: nowrap;
 		text-overflow: ellipsis;

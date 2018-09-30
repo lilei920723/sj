@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="../css/index.css">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/aos.css">
+	<link rel="stylesheet" href="../css/swiper-4.2.6.min.css">
 </head>
 <body class="news_body">
 	<div class="pc">
@@ -39,36 +40,114 @@
 		<div aos="fade-up" aos-delay="200" aos-duration="400">
 			<!-- pcbanner -->
 			<div class="pc_news_banner" aos="fade-up" aos-delay="200" aos-duration="400">
-				<img src="../img/pc_news_banner.png" alt="" aos="fade-zoom-in" aos-delay="300" aos-duration="800">
+				<img src="../img/multi.jpg" alt="" aos="fade-zoom-in" aos-delay="300" aos-duration="800">
 			</div>
 			<!-- 中间导航 -->
+
 			<div class="container">
 				<div class="pc_middle_nav">
 					<div class="mid_l">
 						<i class="address"></i>
 						<a href="../welcome.html">首页</a>
 						<em class="mid_next"></em>
-						<a href="industry.html">新闻资讯</a>
+						<a href="industry.html">多媒体技术</a>
 						<em class="mid_next"></em>
-						<a href="industryDetail.html">多媒体互动技术在舞台上的视觉颠覆</a>
-
+						<a href="industryDetail.html">互动展示</a>
+						<em class="mid_next"></em>
+						<a href="industryDetail.html">时光隧道</a>
 					</div>
 				</div>
 			</div>
-
 		</div>
 		<!-- 主要内容 -->
 		<div class="container">
-			<div class="detail_title">
+			<div class="case_title">
 				<span class="line"></span>
-				<h1>鼓楼区产业规划展示中心.</h1>
+				<h1>时光隧道</h1>
 			</div>
-			<div class="detail_con">
+			<div class="case_con">
 				<p>
-					舞台表演作为一项娱乐项目，国外观众观看舞台演出好比家常便饭一般，但舞台剧进入寻常百姓家的在近20年才算兴起，但中国观众观看舞台剧的数量也远远低于国外。舞台表演作为一种综合型的场合艺术，都会涉及到人事物关系的方方面面：剧本、演员、表演、道具布景、机械等，它们是传统舞台的基础。而随着多媒体技术的发展，数字化科技逐渐走上舞台，引发了独特的化学反应。
+					采用多通道融合方案，利用多台投影画面拼接，打造出动态版虚拟场景让人有身灵其境的感觉。
 				</p>
-				<img src="../img/detail1.jpg" alt="">
+				<div class="case_carousel">
+					<!-- Swiper -->
+					<div class="swiper-container case_carousel_con">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div>
+									<img src="../img/case_carousel1.jpg" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div>
+									<img src="../img/case_carousel1.jpg" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div>
+									<img src="../img/case_carousel1.jpg" alt="">
+								</div>
+							</div>
+						</div>
+						<!-- Add Arrows -->
+						<div class="swiper-button-next" id="case_next"></div>
+						<div class="swiper-button-prev" id="case_prev"></div>
+					</div>
+				</div>
+				<div class="about_case">
+					<h1 class="aboutCase_title">相关案例</h1>
+					<div class="about_case_box">
+						<img src="../img/caes1.jpg" alt="">
+						<div class="case_cover">
+							<span class="case_line"></span>
+							<h2>广西大化七百弄地质博物馆</h2>
+							<p>
+								采用多通道融合方案，利用多台投影画面拼接，打造出动态版虚拟场景让人有身灵其境的感觉。
+							</p>
+							<a href="">
+								详情<em>→</em>
+							</a>
+						</div>
+					</div>
+					<div class="about_case_box">
+						<img src="../img/caes1.jpg" alt="">
+						<div class="case_cover">
+							<span class="case_line"></span>
+							<h2>广西大化七百弄地质博物馆</h2>
+							<p>
+								采用多通道融合方案，利用多台投影画面拼接，打造出动态版虚拟场景让人有身灵其境的感觉。
+							</p>
+							<a href="">
+								详情<em>→</em>
+							</a>
+						</div>
+					</div>
+					<div class="about_case_box">
+						<img src="../img/caes1.jpg" alt="">
+						<div class="case_cover">
+							<span class="case_line"></span>
+							<h2>广西大化七百弄地质博物馆</h2>
+							<p>
+								采用多通道融合方案，利用多台投影画面拼接，打造出动态版虚拟场景让人有身灵其境的感觉。
+							</p>
+							<a href="">
+								详情<em>→</em>
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
+		</div>
+		<!-- 分页 -->
+		<div class="page">
+			<a href="javascript:;">
+				<img src="../img/page_l.png" alt="">
+			</a>
+			<a href="javascript:;" class="page_a">1</a>
+			<a href="javascript:;">2</a>
+			<a href="javascript:;">
+				<img src="../img/page_r.png" alt="">
+			</a>
 		</div>
 		<!-- pc底部 -->
 		<div class="pc_footer">
@@ -148,48 +227,46 @@
 			</nav>
 		</div>
 		<!-- m_news -->
-		<div class="contianer">
-			<div class="detail_con m_detail_con">
-				<p>
-					舞台表演作为一项娱乐项目，国外观众观看舞台演出好比家常便饭一般，但舞台剧进入寻常百姓家的在近20年才算兴起，但中国观众观看舞台剧的数量也远远低于国外。舞台表演作为一种综合型的场合艺术，都会涉及到人事物关系的方方面面：剧本、演员、表演、道具布景、机械等，它们是传统舞台的基础。而随着多媒体技术的发展，数字化科技逐渐走上舞台，引发了独特的化学反应。
-				</p>
-				<img src="../img/detail1.jpg" alt="">
+		<div class=" m_container">
+			<div class="m_media_detail">
+				<img src="../img/m_media.jpg" alt="">
+				<img src="../img/m_media.jpg" alt="">
 			</div>
 			<p class="detail_page">
 				<a href="javascript:;">上一篇</a>
 				<a href="javascript:;" class="active_detial_page">下一篇</a>
 			</p>
-		</div>
-		<div class="m_mediaDetail_case">
-			<div class="mediaCase_title">
-				<h1>相关资讯</h1>
-			</div>
-			<div class="mediaCase_box">
-				<img src="../img/caes1.jpg" alt="">
-				<div>
-					<div class="mediaCase_line"></div>
-					<p>广西大化七百弄地质博物馆</p>
+			<div class="m_mediaDetail_case">
+				<div class="mediaCase_title">
+					<h1>相关技术</h1>
 				</div>
-			</div>
-			<div class="mediaCase_box">
-				<img src="../img/caes1.jpg" alt="">
-				<div>
-					<div class="mediaCase_line"></div>
-					<p>广西大化七百弄地质博物馆</p>
+				<div class="mediaCase_box">
+					<img src="../img/caes1.jpg" alt="">
+					<div>
+						<div class="mediaCase_line"></div>
+						<p>广西大化七百弄地质博物馆</p>
+					</div>
 				</div>
-			</div>
-			<div class="mediaCase_box">
-				<img src="../img/caes1.jpg" alt="">
-				<div>
-					<div class="mediaCase_line"></div>
-					<p>广西大化七百弄地质博物馆</p>
+				<div class="mediaCase_box">
+					<img src="../img/caes1.jpg" alt="">
+					<div>
+						<div class="mediaCase_line"></div>
+						<p>广西大化七百弄地质博物馆</p>
+					</div>
 				</div>
-			</div>
-			<div class="mediaCase_box">
-				<img src="../img/caes1.jpg" alt="">
-				<div>
-					<div class="mediaCase_line"></div>
-					<p>广西大化七百弄地质博物馆</p>
+				<div class="mediaCase_box">
+					<img src="../img/caes1.jpg" alt="">
+					<div>
+						<div class="mediaCase_line"></div>
+						<p>广西大化七百弄地质博物馆</p>
+					</div>
+				</div>
+				<div class="mediaCase_box">
+					<img src="../img/caes1.jpg" alt="">
+					<div>
+						<div class="mediaCase_line"></div>
+						<p>广西大化七百弄地质博物馆</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -205,6 +282,7 @@
 </body>
 <script src="../js/aos.js"></script>
 <script src="../js/jquery-1.7.2.min.js"></script>
+<script src="../js/swiper-4.2.6.min.js"></script>
 <script>
 	AOS.init({
 		  disable: 'mobile',
@@ -215,5 +293,11 @@
 		// 导航特效
 		$(".pc_header").stop().slideDown();
 	})
+	var swiper = new Swiper('.case_carousel_con', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
 </script>
 </html>
