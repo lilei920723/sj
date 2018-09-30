@@ -245,12 +245,12 @@ rotateCubeBottomIn {
 	box-sizing: border-box;
 }
 .pc_news_tab a{
-	width:33%;
+	width:25%;
 	height: 3.2rem;
 	line-height: 3.2rem;
 	display: inline-block;
 	background: #dbd7d4;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	color: #fff;
 	text-align: center;
 	margin-bottom: .2rem;
@@ -336,7 +336,7 @@ rotateCubeBottomIn {
 	background: #bb3e3e;
 }
 .page a:nth-child(3n){
-	margin-right: 0;
+	/* margin-right: 0; */
 }
 .page a:hover {
 	background: #bb3e3e;
